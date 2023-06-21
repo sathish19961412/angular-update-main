@@ -26,6 +26,7 @@ export class AppComponent {
   ]
 }
 
+
 class Movie{
   title!:string;
   direactor!:string;
