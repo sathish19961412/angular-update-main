@@ -21,7 +21,7 @@
                        </tr>
                     </thead>
                     <tbody>
-                         <tr *ngFor="let movie of movies;let i=index">
+                         <tr *ngFor="let movie of movies;let i=index;let o=odd;let e=even;let first=first;let last=last;" [ngClass]="{'bg-danger':first,'bg-success':last}" >
                               <td>{{i+1}}</td>
                               <td>{{movie.title}}</td>
                               <td>{{movie.direactor}}</td>
