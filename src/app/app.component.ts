@@ -6,5 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-update';
+  title = 'myapp';
+  movies:Movie[]=[
+    {
+      title:"horror",
+      direactor:"sathish",
+      cast:"Sk Production"
+    },
+    {
+      title:"Comdey",
+      direactor:"mathew",
+      cast:"ks Production"
+    },
+    {
+      title:"Romance",
+      direactor:"sathish",
+      cast:"pk Production"
+    },
+  ]
+}
+
+class Movie{
+  title!:string;
+  direactor!:string;
+  cast!:string;
 }
