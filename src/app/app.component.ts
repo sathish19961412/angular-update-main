@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myapp';
+  result:boolean=true;
   movies:Movie[]=[
     {
       title:"horror",

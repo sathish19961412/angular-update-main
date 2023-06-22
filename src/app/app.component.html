@@ -32,3 +32,16 @@
          </div>
      </div>
 </div>
+
+
+<div>
+   <h1>Example1 Of ngIf Directives</h1>
+   <p *ngIf="result; then thenBlock;else elseBlock ">text wil not show</p>
+   <ng-template #thenBlock>
+          <p>Text is Rendered When Condition is True</p>
+   </ng-template>
+   <ng-template #elseBlock>
+    <p>Text is Rendered When Condition is false</p>
+</ng-template>
+</div>
+
